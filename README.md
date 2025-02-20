@@ -7,6 +7,9 @@ Bootstrap CSS for styling and responsiveness
 JavaScript ES6+ for interactivity
 Frontend Tools like APIs and libraries
 📌 Featured Projects
+
+
+
 1️⃣ Quiz App
 A question-answer-based quiz application designed for engaging learning experiences.
 
@@ -18,6 +21,6 @@ A real-time weather application built using JavaScript, fetching live weather da
 Have feedback or want to collaborate? Get in touch!
 
 📧 Email:dashrathbhil24@gmail.com
-🌐 Website:
+🌐 Website:https://dashrathbhilportfolio.netlify.app
 
 This README keeps things structured and engaging while aligning with your preferences. Let me know if you want any modifications! 🚀
