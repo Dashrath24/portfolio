@@ -12923,8 +12923,12 @@ h5,
 
 @media (max-width: 767.98px) {
   .project .overlay {
-    opacity:0;
-    display: none!important;
+    opacity: 0;
+    display: none !important;
+  }
+
+  .project .text {
+    backdrop-filter: brightness(0.5);
   }
 }
 
@@ -12937,8 +12941,9 @@ h5,
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  backdrop-filter: brightness(0.5);
 }
+
+
 
 .project .text h3 {
   font-size: 20px;
@@ -13566,7 +13571,7 @@ textarea.form-control {
 
 @media (max-width: 991.98px) {
   .contact-section .img {
-display: none;
+    display: none;
   }
 }
 
@@ -13937,12 +13942,14 @@ display: none;
 }
 
 .custom-container {
-  display: none !important; /* Hidden by default for screens above 992px */
+  display: none !important;
+  /* Hidden by default for screens above 992px */
 }
 
 @media (max-width: 992px) {
   .custom-container {
-    display: block !important; /* Show when screen is 992px or smaller */
+    display: block !important;
+    /* Show when screen is 992px or smaller */
     position: absolute !important;
     top: 0 !important;
     height: 100% !important;
