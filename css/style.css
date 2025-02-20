@@ -12923,7 +12923,8 @@ h5,
 
 @media (max-width: 767.98px) {
   .project .overlay {
-    opacity: .2;
+    opacity:0;
+    display: none!important;
   }
 }
 
@@ -12936,6 +12937,7 @@ h5,
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  backdrop-filter: brightness(0.5);
 }
 
 .project .text h3 {
@@ -13564,7 +13566,7 @@ textarea.form-control {
 
 @media (max-width: 991.98px) {
   .contact-section .img {
-    height: 500px;
+display: none;
   }
 }
 
