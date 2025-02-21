@@ -13296,7 +13296,7 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  z-index: 99;
+  z-index:1;
 }
 
 .image-popup {
