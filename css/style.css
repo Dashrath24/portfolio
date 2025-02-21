@@ -11764,7 +11764,7 @@ h5,
   top: 0;
   left: 0;
   right: 0;
-  z-index: 3;
+  z-index: 100;
 }
 
 @media (max-width: 991.98px) {
@@ -12002,7 +12002,7 @@ h5,
 
 .ftco-navbar-light.scrolled .navbar-toggler {
   border: none;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgb(255 255 255 / 50%) !important;
   border-color: rgba(0, 0, 0, 0.5) !important;
   cursor: pointer;
   text-transform: uppercase;
@@ -13296,7 +13296,7 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  z-index:1;
+  z-index:99;
 }
 
 .image-popup {
