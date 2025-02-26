@@ -703,7 +703,12 @@
 
 		<div class="row no-gutters block-9">
 			<div class="col-md-6 order-md-last d-flex ">
-				<form method="post" class="bg-dark p-4 p-md-5 contact-form" name="contact" netlify>
+				<form name="contact" method="POST" netlify netlify-honeypot="bot-field"
+					class="bg-dark p-4 p-md-5 contact-form">
+					<p class="d-none">
+						<label>Don't fill this out: <input name="bot-field"></label>
+					</p>
+
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="Your Name">
 					</div>
@@ -739,7 +744,7 @@
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">About</h2>
 						<p>Frontend developer passionate about building responsive, user-friendly websites using
-								modern web technologies</p>
+							modern web technologies</p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
 							<li class="ftco-animate"><a href="mailto:dashrathbhil@24gmail.com"><span
 										class="icon-envelope"></span></a></li>
